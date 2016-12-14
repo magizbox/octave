@@ -1,5 +1,8 @@
 site_name: OctaveTutorial
 pages:
-- "Home": 'index.md'
+- "<span class='fa fa-home'></span> Home": "index.md"
+- "<span class='fa fa-book'></span> Learn":
+  - "Matrix": 'matrix.md'
+
 markdown_extensions:
     - footnotes
